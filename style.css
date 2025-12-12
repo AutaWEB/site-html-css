@@ -78,3 +78,30 @@ header {
 .btn-green { background: #44DD8A; color: #152237; font-weight: 700; width: 22rem; }
 
 .center-btn { text-align: center; margin-top: 3rem; }
+
+.hero {
+    height: 28rem;
+    background: linear-gradient(94deg, rgba(68, 221, 138, 0.8) 0%, rgba(21, 183, 226, 0.8) 100%),
+                url('/Assets/png/bg-header.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #152237;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
