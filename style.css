@@ -82,7 +82,7 @@ header {
 .hero {
     height: 28rem;
     background: linear-gradient(94deg, rgba(68, 221, 138, 0.8) 0%, rgba(21, 183, 226, 0.8) 100%),
-                url('/Assets/png/bg-header.png');
+                url('/assets/ressources/bg-header.png');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -214,7 +214,8 @@ text-transform: uppercase;
     align-items: flex-start;
     gap: 1rem;
 }
-.icon-mini { width: 1.5rem; height: auto; }
+.icon-mini { width: 1.5rem; height: 1.5rem; }
+.icon-mini-maispastrop {width: 1.875rem; height: 1.875rem;}
 
 
 .contact { background: #FFFFFF; }
@@ -259,7 +260,6 @@ footer {
 
 
 .recent {
-text-align: center;
 color: #FFF;
 font-family: Montserrat;
 font-size: 2.25rem;
@@ -271,7 +271,6 @@ letter-spacing: -0.03375rem;
 }
 
 .popular {
-text-align: center;
 color: #152237;
 font-family: Montserrat;
 font-size: 2.25rem;
@@ -279,6 +278,12 @@ font-style: normal;
 font-weight: 800;
 line-height: 4.5rem; 
 letter-spacing: -0.03375rem;
+}
+
+.imgavantage{
+  width: 45.4375rem;
+  height: 29.5rem;
+  border: ;
 }
 
 @media (max-width: 62rem) {
