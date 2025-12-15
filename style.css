@@ -107,8 +107,8 @@ header {
 }
 
 
-.popular-courses { background: #FFFFFF; }
-.recent-courses { background: #152237; } 
+.popular-courses { background: #FFFFFF; height: 39.5rem; }
+.recent-courses { background: #152237; height: 39.5rem;} 
 
 .grid-4 {
     display: flex;
@@ -159,18 +159,53 @@ header {
 
 .white-text h3, .white-text p { color: #FFFFFF; }
 
-.reviews { background: #FFFFFF; }
+.reviews { background: #FFFFFF; height: 37.3125rem; }
+
+.avis {
+text-align: center;
+color: #152237;
+font-family: Montserrat;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 900;
+line-height: 2.25rem; 
+letter-spacing: -0.0375rem;
+text-transform: uppercase;
+}
+
+.avis .avis-client {
+  left: 863px;
+  width: 669px;
+  position: absolute;
+  top: 160px;
+  height: 306px;
+}
+
 .grid-2 { display: flex; gap: 3rem; }
-.review-item { display: flex; gap: 1.5rem; align-items: flex-start; }
-.review-photo { width: 8.6875rem; height: 8.6875rem; border-radius: 50%; }
+.review-item { margin-top: 7rem; display: auto; gap: 1.5rem; align-items: flex-start; }
+.review-photo {  width: 8.6875rem; height: 8.6875rem; border-radius: 50%; }
 .review-content h4 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; }
 
 
-.advantages { background: #F5F5F5; }
-.create-formation { background: #44DD8A; }
+.advantages { background: #F5F5F5; height: 40.0625rem; }
+.create-formation { background: #44DD8A; height: 40.0625rem ; }
 
 .flex-row { display: flex; align-items: center; gap: 4rem; }
 .col-image, .col-text { flex: 1; }
+
+.box {
+  width: 830px;
+  height: 740px;
+}
+
+.box .rectangle {
+  position: fixed;
+  top: 0;
+  left: 850px;
+  width: 830px;
+  height: 740px;
+  background-color: #152237;
+}
 
 .check-list li {
     font-size: 1.5rem;
@@ -222,6 +257,29 @@ footer {
 
 .copyright { border-top: 1px solid #44DD8A; padding: 1.5rem 0; font-size: 0.9375rem; }
 
+
+.recent {
+text-align: center;
+color: #FFF;
+font-family: Montserrat;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 800;
+line-height: 4.5rem;
+letter-spacing: -0.03375rem;
+
+}
+
+.popular {
+text-align: center;
+color: #152237;
+font-family: Montserrat;
+font-size: 2.25rem;
+font-style: normal;
+font-weight: 800;
+line-height: 4.5rem; 
+letter-spacing: -0.03375rem;
+}
 
 @media (max-width: 62rem) {
     header { height: auto; padding: 1rem 0; }
