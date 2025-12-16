@@ -161,7 +161,21 @@ header {
     width: 100%;
 }
 
-.price-badge {
+.price-badge-blue {
+    position: absolute;
+    bottom: -1rem; 
+    right: 1rem;
+    background: #152237;
+    border-radius: 6rem;
+    padding: 0.3rem 1rem;
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 0 0.25rem 0.8rem rgba(0,0,0,0.25);
+    font-weight: 700;
+    color: #FFF;
+    z-index: 2; 
+}
+.price-badge-white {
     position: absolute;
     bottom: -1rem; 
     right: 1rem;
@@ -207,7 +221,7 @@ text-transform: uppercase;
 .avis .avis-client {
   left: 863px;
   width: 669px;
-  position: absolute;
+  position: flex;
   top: 160px;
   height: 306px;
 }
