@@ -62,16 +62,11 @@ header {
   overflow: hidden;
 }
 .png-blanc-2 {
-  width: 100%;
-  flex-shrink: 0;
-  height: 4.8125rem;
-  max-width: 13.375rem;
-  max-height: 4.8125rem;
-  position: relative;
-  object-fit: cover;
+width: 26.875rem;
+height: 9.6875rem;
 }
 
-.nav-link { color: #FFFFFF; font-weight: 500; font-size: 0.9375rem; margin-left: auto;}
+.nav-link { color: #FFFFFF; font-weight: 500; font-size: 0.9375rem; margin-left: 10rem;}
 
 
 .search-box {
@@ -149,7 +144,7 @@ header {
     justify-content: center;
 }
 
-.card { width: 19rem; }
+.card { width: 19rem; margin: auto; margin-top: 3rem; }
 
 .card-image-wrapper {
     position: relative; 
@@ -199,9 +194,9 @@ header {
     font-weight: 400;
 }
 
-.card-info h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
-.card-info .author { font-size: 1rem; margin-bottom: 0.5rem; }
-.stars { color: #FFC700; font-size: 0.875rem; margin-bottom: 0.5rem; }
+.card-info h3 { font-size: 1.5rem; margin-top: 0.5rem; }
+.card-info .author { font-size: 1rem; margin-top: 0.5rem; }
+.stars { color: #FFC700; font-size: 0.875rem; margin-top: 0.5rem; }
 .desc { font-size: 1rem; line-height: 1.2; }
 
 .white-text h3, .white-text p { color: #FFFFFF; }
@@ -209,6 +204,7 @@ header {
 .reviews { background: #FFFFFF; height: 37.3125rem; }
 
 .avis {
+padding-top: 1.5rem;
 text-align: center;
 color: #152237;
 font-family: Montserrat;
@@ -237,6 +233,18 @@ margin-top: 2rem;
 
 .advantages { background: #F5F5F5; height: 40.0625rem; }
 .create-formation { background: #44DD8A; height: 40.0625rem ; }
+.avantageTXT { 
+color: #152237;
+font-family: Montserrat;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 900;
+line-height: 2.25rem; 
+letter-spacing: -0.0375rem;
+text-transform: uppercase; 
+margin-bottom: 3rem;
+padding-top: 5rem;
+}
 
 .flex-row { display: flex; align-items: center; gap: 4rem; }
 .col-image, .col-text { flex: 1; }
@@ -254,7 +262,7 @@ margin-top: 2rem;
 
 .KLVTXT{
     width: 42.875rem;
-    height: 18.4375rem;
+    height: auto;
     color: #152237;
     font-family: Montserrat;
     font-size: 1.125rem;
@@ -318,6 +326,7 @@ footer {
 
 
 .recent {
+padding-top:2.5rem;
 color: #FFF;
 font-family: Montserrat;
 font-size: 2.25rem;
@@ -329,6 +338,7 @@ letter-spacing: -0.03375rem;
 }
 
 .popular {
+margin-top: 2rem;
 color: #152237;
 font-family: Montserrat;
 font-size: 2.25rem;
