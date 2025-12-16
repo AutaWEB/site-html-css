@@ -361,6 +361,12 @@ letter-spacing: -0.03375rem;
 }
 
 @media (max-width: 62rem) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+        margin: 0;
+    }
+
     .hero,
     .popular-courses,
     .recent-courses,
@@ -371,74 +377,94 @@ letter-spacing: -0.03375rem;
         padding-bottom: 3rem;
     }
 
-    header { height: auto; padding: 1rem 0; }
-    
-    .header-flex { 
-        flex-direction: column; 
-        gap: 1.5rem; 
+    header {
+        height: auto;
+        padding: 1rem 0;
     }
-    
-    .header-left { 
-        flex-direction: column; 
-        width: 100%; 
+
+    .header-flex {
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+    .header-left {
+        flex-direction: column;
+        width: 100%;
         gap: 1.5rem;
     }
 
-   
     .search-box {
-        margin-left: 0; 
-        width: 100%;    
-        max-width: 25rem; 
+        margin-left: 0;
+        width: 100%;
+        max-width: 25rem;
     }
 
-    .nav-link { margin-left: 0; } 
+    .nav-link {
+        margin-left: 0;
+    }
 
+    .hero-content h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+        word-wrap: break-word;
+    }
 
-    .flex-row { 
-        flex-direction: column; 
+    .flex-row {
+        flex-direction: column;
         gap: 2rem;
         padding-top: 2rem;
     }
-    
 
-    .grid-2 { flex-direction: column; gap: 2rem; }
-    
+    .grid-2 {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
 
     .imgavantage {
         width: 100%;
         height: auto;
         margin-top: 0;
     }
-    
+
     .logo1 {
-        min-width: 100%; 
+        min-width: 100%;
         min-height: 20rem;
     }
-    
+
     .KLVTXT {
-        width: 100%; 
+        width: 100%;
         height: auto;
     }
 
-    
     .review-item {
         margin-top: 2rem;
-        flex-direction: column; 
+        flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-   
-    .footer-grid { 
-        flex-direction: column; 
-        gap: 2rem; 
-        text-align: center; 
+    .footer-grid {
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
         align-items: center;
     }
-    
-    .socials { justify-content: center; } 
-    
-    .row { flex-direction: column; gap: 0; }
-    
-    .btn-green { width: 100%; }
+
+    .socials {
+        justify-content: center;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .btn-green {
+        width: 100%;
+    }
 }
