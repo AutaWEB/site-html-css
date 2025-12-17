@@ -10,6 +10,7 @@ body {
     background-color: #FFFFFF;
     line-height: 1.5;
     font-size: 1rem;
+    overflow-x: hidden;
 }
 
 a { text-decoration: none; color: inherit; }
@@ -49,24 +50,26 @@ header {
 .logo1 * {
   box-sizing: border-box;
 }
+
 .logo1 {
-  background: var(--color-dark-blue, #152237);
-  padding: var(--spacing-6, 1.5rem);
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  min-width: 24.5625rem;
-  max-width: 51.875rem;
-  min-height: 45rem;
-  position: relative;
-  overflow: hidden;
+    background: #152237;
+    box-shadow: 100vw 0 0 #152237;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+    min-height: 45rem;
+    position: relative;
 }
+
+
 .png-blanc-2 {
 width: 26.875rem;
 height: 9.6875rem;
+position: absolute;
 }
 
 .nav-link { color: #FFFFFF; font-weight: 500; font-size: 0.9375rem; margin-left: 10rem;}
