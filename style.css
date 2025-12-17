@@ -275,6 +275,33 @@ padding-top: 5rem;
     letter-spacing: -0.01688rem;
 }
 
+.contactus{
+    text-align: center;
+    color: #152237;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2.25rem;
+    letter-spacing: -0.0375rem;
+    text-transform: uppercase;
+    margin-top: 4rem;
+
+}
+
+.msg{
+    padding-top: 5rem;
+}
+ 
+.hrgreen{ 
+    
+  margin-top: 2.0625rem;
+  border-style: solid;
+  border-color: #44dd8a;
+  border-width: 0.0625rem 0 0 0;
+  position: relative;
+}
+
 
 .check-list li {
     font-size: 1.5rem;
