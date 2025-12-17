@@ -38,6 +38,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.mobile-menu-icon {
+    display: none;
+}
 
 .header-left { display: flex; align-items: center; gap: 2rem; }
 .logo { width: 5.25rem; height: 1.9375rem; }
@@ -367,6 +370,17 @@ letter-spacing: -0.03375rem;
         margin: 0;
     }
 
+    .desktop-only {
+        display: none !important;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        color: #FFFFFF;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
     .hero,
     .popular-courses,
     .recent-courses,
@@ -383,25 +397,23 @@ letter-spacing: -0.03375rem;
     }
 
     .header-flex {
-        flex-direction: column;
-        gap: 1.5rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
         width: 100%;
+        gap: 0;
     }
 
     .header-left {
-        flex-direction: column;
-        width: 100%;
-        gap: 1.5rem;
+        flex-direction: row;
+        width: auto;
+        gap: 0;
     }
 
-    .search-box {
-        margin-left: 0;
-        width: 100%;
-        max-width: 25rem;
-    }
-
-    .nav-link {
-        margin-left: 0;
+    .header-right {
+        display: flex;
+        align-items: center;
+        gap: 0;
     }
 
     .hero-content h1 {
